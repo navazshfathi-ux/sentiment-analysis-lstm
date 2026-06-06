@@ -1,0 +1,58 @@
+
+gitignore_content = """# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Dataset files (حجم بالا)
+*.csv
+*.zip
+*.tar.gz
+
+# Model files (حجم بالا - مهم!)
+*.h5
+*.pb
+*.ckpt
+*.pkl
+
+# Environment
+venv/
+env/
+ENV/
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+*.pid
+
+# Secrets (مهم!)
+*.key
+*.pem
+config.py
+.env
+"""
+
+with open('.gitignore', 'w', encoding='utf-8') as f:
+    f.write(gitignore_content)
+    
+print("✅ .gitignore created successfully!")
