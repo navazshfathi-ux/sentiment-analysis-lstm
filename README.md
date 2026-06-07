@@ -15,9 +15,4 @@ This project performs sentiment analysis on Twitter data using a Bidirectional L
 - Bidirectional LSTM (64 units) with dropout
 - Dense layers with ReLU and Softmax
 
-## 🔧 Installation
 
-### Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/sentiment-analysis-lstm.git
-cd sentiment-analysis-lstm
